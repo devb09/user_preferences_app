@@ -21,14 +21,14 @@ class MenuDrawer extends StatelessWidget {
           ),
           ListTile(
             leading: const Icon(Icons.people_alt_outlined),
-            title: const Text('Home'),
+            title: const Text('People'),
             onTap: () {
               
             },
           ),
           ListTile(
             leading: const Icon(Icons.settings),
-            title: const Text('Home'),
+            title: const Text('Settings'),
             onTap: () {
               Navigator.pop(context);
               Navigator.pushReplacementNamed(context, SettingsScreen.routeName);
